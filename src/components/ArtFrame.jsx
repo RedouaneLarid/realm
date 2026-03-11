@@ -89,10 +89,10 @@ const ArtFrame = () => {
                         <motion.div
                             key="river"
                             className="absolute w-full h-full"
-                            initial={{opacity: 0 , x: -800 }}
-                            animate={{opacity: 1 , x: 300 }}
-                            exit={{opacity: 0 , x: -800}}
-                            transition={{ duration: 4, ease: "easeInOut" }}
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            exit={{opacity: 0}}
+                            transition={{ duration: 2, ease: "easeInOut" }}
                         >
                             <River style="absolute bottom-[-34px]" />
                         </motion.div>
